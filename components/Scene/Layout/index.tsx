@@ -77,7 +77,7 @@ export default function Layout({
     className,
     children,
 }: {
-    className: string;
+    className?: string;
     children: ReactElement;
 }) {
     return (
